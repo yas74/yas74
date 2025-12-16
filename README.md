@@ -1,97 +1,100 @@
 # Yasaman Rohani
 
-Backend Developer with ~2 years of hands-on experience building real-world backend systems using Python.  
-Focused on business logic, payments, integrations, and system reliability.
+Backend Developer with ~2 years of hands-on experience building real-world backend systems using Python.
 
-I care about writing backend code that reflects how real products operate — with constraints, edge cases, and evolving requirements.
+I’ve worked primarily on a production SaaS platform serving course creators, webinar hosts, and digital product sellers. My focus is backend architecture, business logic, payment flows, reporting, and third-party integrations.
 
----
-
-## 👨‍💻 About Me
-
-- Backend Developer & Co-Founder at **Seenups** (production SaaS platform)
-- Primary experience with **Python, Flask, and MongoDB**
-- Designed and maintained complex backend flows: orders, payments, subscriptions, installments
-- Comfortable working close to business problems, not just APIs
-- Currently improving backend engineering skills through a **Go bootcamp**
-- Solid theoretical foundation in AI & ML (DeepLearning.ai – Andrew Ng), with interest in applying AI pragmatically in the future
+I enjoy turning real operational problems into clean, maintainable backend systems — especially where money, users, and long-term data consistency are involved.
 
 ---
 
-## 🚀 What I Work On
+## 🧠 What I Work On
 
-I mostly work on backend systems that involve:
-
-- Complex business rules
-- Financial transactions and payment flows
-- Third-party integrations
-- Observability and debugging in production
-- Gradual system evolution under real usage
-
----
-
-## 🏗 Featured Project: Seenups (Private Codebase)
-
-**Seenups** is a SaaS platform for course creators, webinar hosts, and digital sellers to manage campaigns, users, and payments.
-
-Although the production code is private, I was deeply involved in the backend architecture and implementation.
-
-### What I Built & Improved
-
-- Designed modular backend architecture using Flask Blueprints
-- Implemented order lifecycle:
-  - One-time purchases
-  - Subscriptions
-  - Installment payments
-- Integrated Iranian payment gateways (Zarinpal, Zibal)
-- Built coupon and promotional credit systems
-- Implemented seller wallet & recharge logic
-- Designed sales analytics with filtering and Excel export
-- Integrated SpotPlayer for:
-  - License creation
-  - License activation/deactivation
-  - License updates based on installment payments and subscription status
-- Added request-level performance logging to measure endpoint response times
-- Improved image handling by moving away from base64 storage to reduce payload size and improve performance
-- Implemented visit logging for both authenticated and anonymous users
-- Added SpotPlayer credit monitoring to prevent failed license issuance during active campaigns
-- Optimized database queries and indexes after identifying performance bottlenecks
-
-**Role:** Backend Developer & Co-Founder  
-**Tech:** Python, Flask, MongoDB, REST APIs, Payment Systems, External Integrations
-
----
-
-## 🧠 Engineering Mindset
-
-I enjoy:
-- Turning messy real-world requirements into clean backend logic
-- Finding performance and reliability issues in production systems
-- Improving systems incrementally rather than rewriting them
-- Reviewing code and thinking in edge cases
+- Designing backend systems around real business rules  
+- Payments, subscriptions, installments, and financial flows  
+- APIs serving both public users and authenticated dashboards  
+- Performance, observability, and reliability improvements  
+- Translating product and operational needs into technical models  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Languages:** Python, Go (learning)
-- **Frameworks:** Flask
-- **Databases:** MongoDB (MongoEngine)
-- **Payments:** Zarinpal, Zibal
-- **Integrations:** SpotPlayer, SMS providers
-- **Tools:** Git, REST APIs
-- **Concepts:** Authentication, authorization, background tasks, observability, modular architecture
+### Backend
+- Python (Flask)
+- MongoDB (MongoEngine)
+- RESTful API design
+
+### Payments & Integrations
+- Zarinpal, Zibal
+- SpotPlayer (license lifecycle management)
+- SMS providers
+
+### Engineering Practices
+- Modular, domain-oriented architecture
+- Pagination and filtering at scale
+- Logging and performance monitoring
+- Role-based access control
+
+### Currently Learning
+- Go (project-based bootcamp)
+- Deeper backend system design
+- Machine learning fundamentals (DeepLearning.ai – Andrew Ng)
 
 ---
 
-## 📌 Current Focus
+## 🚀 Featured Work
 
-- Deepening backend engineering fundamentals
-- Writing clearer, more maintainable systems
-- Building portfolio projects that reflect real operational problems
+### Seenups (Private Repository)
+
+A production SaaS platform for course creators, webinar hosts, and digital product sellers.
+
+**What it does**
+- Campaign and product management
+- One-time, subscription, and installment payments
+- Coupon codes and seller recharge gifts
+- Sales analytics with filtering and Excel export
+- Automated notifications and credit warnings
+- License generation, activation, update, and deactivation
+
+**My role**
+- Backend Developer & Co-Founder
+- Designed core backend architecture
+- Implemented order, payment, installment, and subscription flows
+- Integrated payment gateways, SpotPlayer, and SMS services
+- Built reporting, logging, and monitoring systems
+- Improved performance via indexing, logging, and payload optimization
+
+The production codebase is private, but architectural overviews and case studies are shared in pinned repositories.
+
+---
+
+## 🧩 Portfolio Project (In Progress)
+
+### Niki – Staff Credit & Motivation System
+
+A backend system designed to fairly manage staff credit and loans based on performance and responsibility.
+
+**Core ideas**
+- Performance-based scoring with weighted criteria
+- Transparent loan eligibility and limits
+- Small, interest-free installments deducted from salary
+- Clear visibility into scores, loans, and repayment status
+
+The system is designed to motivate growth, preserve dignity, and support small financial needs — inspired by real experience managing a restaurant team.
+
+---
+
+## 🎯 Interests
+
+- Backend system design
+- Problem solving through software
+- Code review and refactoring
+- Mathematics and engineering thinking
+- Learning by building real systems
 
 ---
 
 ## 📫 Contact
 
-- GitHub: https://github.com/yas74
+GitHub: https://github.com/yas74
